@@ -3764,10 +3764,6 @@
         "customnavsystem001": "0x1312B58"
     },
     "soundsystem_dll": {
-        "SoundOpSystem001": "0x3A1C50",
-        "SoundOpSystemEdit001": "0x3A1B20",
-        "SoundSystem001": "0x3A15F0",
-        "VMixEditTool001": "0x48289C6A",
         "dwSoundSystem": "0x3A15F0",
         "dwSoundSystem_engineViewData": "0x7C"
     }
