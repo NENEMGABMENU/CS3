@@ -1,64 +1,61 @@
-
 {
     "buttons": {
-        "attack": "0x1885770",
-        "attack2": "0x1885800",
-        "back": "0x1885A40",
-        "duck": "0x1885D10",
-        "forward": "0x18859B0",
-        "jump": "0x1885C80",
-        "left": "0x1885AD0",
-        "lookatweapon": "0x1AAE3D0",
-        "reload": "0x18856E0",
-        "right": "0x1885B60",
-        "showscores": "0x1AAE2B0",
-        "sprint": "0x1885650",
-        "turnleft": "0x1885890",
-        "turnright": "0x1885920",
-        "use": "0x1885BF0",
-        "zoom": "0x1AAE340"
+        "attack": "0x186C850",
+        "attack2": "0x186C8E0",
+        "back": "0x186CB20",
+        "duck": "0x186CDF0",
+        "forward": "0x186CA90",
+        "jump": "0x186CD60",
+        "left": "0x186CBB0",
+        "lookatweapon": "0x1A92E30",
+        "reload": "0x186C7C0",
+        "right": "0x186CC40",
+        "showscores": "0x1A92D10",
+        "sprint": "0x186C730",
+        "turnleft": "0x186C970",
+        "turnright": "0x186CA00",
+        "use": "0x186CCD0",
+        "zoom": "0x1A92DA0"
     },
     "CCSPlayer_MovementServices": {
-        "m_vecLadderNormal": "0x228",
-        "m_nLadderSurfacePropIndex": "0x234",
-        "m_flDuckAmount": "0x238",
-        "m_flDuckSpeed": "0x23C",
-        "m_bDuckOverride": "0x240",
-        "m_bDesiresDuck": "0x241",
-        "m_flDuckOffset": "0x244",
-        "m_nDuckTimeMsecs": "0x248",
-        "m_nDuckJumpTimeMsecs": "0x24C",
-        "m_nJumpTimeMsecs": "0x250",
-        "m_flLastDuckTime": "0x254",
-        "m_vecLastPositionAtFullCrouchSpeed": "0x260",
-        "m_duckUntilOnGround": "0x268",
-        "m_bHasWalkMovedSinceLastJump": "0x269",
-        "m_bInStuckTest": "0x26A",
-        "m_flStuckCheckTime": "0x278",
-        "m_nTraceCount": "0x478",
-        "m_StuckLast": "0x47C",
-        "m_bSpeedCropped": "0x480",
-        "m_flGroundMoveEfficiency": "0x484",
-        "m_nOldWaterLevel": "0x488",
-        "m_flWaterEntryTime": "0x48C",
-        "m_vecForward": "0x490",
-        "m_vecLeft": "0x49C",
-        "m_vecUp": "0x4A8",
-        "m_nGameCodeHasMovedPlayerAfterCommand": "0x4B4",
-        "m_bOldJumpPressed": "0x4C0",
-        "m_flJumpPressedTime": "0x4C4",
-        "m_fStashGrenadeParameterWhen": "0x4C8",
-        "m_nButtonDownMaskPrev": "0x4D0",
-        "m_flOffsetTickCompleteTime": "0x4D8",
-        "m_flOffsetTickStashedSpeed": "0x4DC",
-        "m_flStamina": "0x4E0",
-        "m_flHeightAtJumpStart": "0x4E4",
-        "m_flMaxJumpHeightThisJump": "0x4E8",
-        "m_flMaxJumpHeightLastJump": "0x4EC",
-        "m_flStaminaAtJumpStart": "0x4F0",
-        "m_flAccumulatedJumpError": "0x4F4",
-        "m_bMadeFootstepNoise": "0x4B8",
-        "m_iFootsteps": "0x4BC"
+        "m_vecLadderNormal": "0x218",
+        "m_nLadderSurfacePropIndex": "0x224",
+        "m_flDuckAmount": "0x228",
+        "m_flDuckSpeed": "0x22C",
+        "m_bDuckOverride": "0x230",
+        "m_bDesiresDuck": "0x231",
+        "m_flDuckOffset": "0x234",
+        "m_nDuckTimeMsecs": "0x238",
+        "m_nDuckJumpTimeMsecs": "0x23C",
+        "m_nJumpTimeMsecs": "0x240",
+        "m_flLastDuckTime": "0x244",
+        "m_vecLastPositionAtFullCrouchSpeed": "0x250",
+        "m_duckUntilOnGround": "0x258",
+        "m_bHasWalkMovedSinceLastJump": "0x259",
+        "m_bInStuckTest": "0x25A",
+        "m_flStuckCheckTime": "0x268",
+        "m_nTraceCount": "0x468",
+        "m_StuckLast": "0x46C",
+        "m_bSpeedCropped": "0x470",
+        "m_flGroundMoveEfficiency": "0x474",
+        "m_nOldWaterLevel": "0x478",
+        "m_flWaterEntryTime": "0x47C",
+        "m_vecForward": "0x480",
+        "m_vecLeft": "0x48C",
+        "m_vecUp": "0x498",
+        "m_nGameCodeHasMovedPlayerAfterCommand": "0x4A4",
+        "m_bOldJumpPressed": "0x4A8",
+        "m_flJumpPressedTime": "0x4AC",
+        "m_fStashGrenadeParameterWhen": "0x4B0",
+        "m_nButtonDownMaskPrev": "0x4B8",
+        "m_flOffsetTickCompleteTime": "0x4C0",
+        "m_flOffsetTickStashedSpeed": "0x4C4",
+        "m_flStamina": "0x4C8",
+        "m_flHeightAtJumpStart": "0x4CC",
+        "m_flMaxJumpHeightThisJump": "0x4D0",
+        "m_flMaxJumpHeightLastJump": "0x4D4",
+        "m_flStaminaAtJumpStart": "0x4D8",
+        "m_flAccumulatedJumpError": "0x4DC"
     },
     "sky3dparams_t": {
         "scale": "0x8",
@@ -321,8 +318,7 @@
         "m_fOverrideFogStart": "0x1CC",
         "m_fOverrideFogEnd": "0x1E0",
         "m_hActivePostProcessingVolume": "0x1F4",
-        "m_angDemoViewAngles": "0x1F8",
-        "m_hTriggerSoundscapeList": "0x158"
+        "m_angDemoViewAngles": "0x1F8"
     },
     "C_BaseCSGrenade": {
         "m_bClientPredictDelete": "0x1B20",
@@ -697,9 +693,7 @@
         "m_groundNormal": "0x1F0",
         "m_flSurfaceFriction": "0x1FC",
         "m_surfaceProps": "0x200",
-        "m_nStepside": "0x210",
-        "m_iTargetVolume": "0x214",
-        "m_vecSmoothedVelocity": "0x218"
+        "m_nStepside": "0x210"
     },
     "C_PointClientUIWorldPanel": {
         "m_bForceRecreateNextUpdate": "0xD60",
@@ -763,16 +757,13 @@
         "m_flStartFrame": "0xD5C"
     },
     "CCSPlayer_WaterServices": {
-        "m_flWaterJumpTime": "0x4C",
-        "m_vecWaterJumpVel": "0x50",
-        "m_flSwimSoundTime": "0x5C",
-        "m_NextDrownDamageTime": "0x40",
-        "m_nDrownDmgRate": "0x44",
-        "m_AirFinishedTime": "0x48"
+        "m_flWaterJumpTime": "0x40",
+        "m_vecWaterJumpVel": "0x44",
+        "m_flSwimSoundTime": "0x50"
     },
     "CSkyboxReference": {
-        "m_worldGroupId": "0x4E0",
-        "m_hSkyCamera": "0x4E4"
+        "m_worldGroupId": "0x568",
+        "m_hSkyCamera": "0x56C"
     },
     "CProjectedTextureBase": {
         "m_hTargetEntity": "0xC",
@@ -814,8 +805,7 @@
         "m_nPersonaDataPublicCommendsTeacher": "0x64",
         "m_nPersonaDataPublicCommendsFriendly": "0x68",
         "m_nPersonaDataXpTrailLevel": "0x6C",
-        "m_vecServerAuthoritativeWeaponSlots": "0xF50",
-        "m_unEquippedPlayerSprayIDs": "0xF48"
+        "m_vecServerAuthoritativeWeaponSlots": "0x70"
     },
     "C_CSGOViewModel": {
         "m_bShouldIgnoreOffsetAndAccuracy": "0x1021",
@@ -865,10 +855,7 @@
         "m_iEnemiesFlashed": "0x60"
     },
     "CRagdollManager": {
-        "m_iCurrentMaxRagdollCount": "0x4E0",
-        "m_iMaxRagdollCount": "0x4E4",
-        "m_bSaveImportant": "0x4E8",
-        "m_bCanTakeDamage": "0x4E9"
+        "m_iCurrentMaxRagdollCount": "0x568"
     },
     "C_TeamRoundTimer": {
         "m_bTimerPaused": "0x568",
@@ -907,17 +894,15 @@
         "m_nCount": "0x32"
     },
     "CPathSimple": {
-        "m_pathString": "0x538"
+        "m_pathString": "0x5C0"
     },
     "CCSPlayerBase_CameraServices": {
-        "m_iFOV": "0x170",
-        "m_iFOVStart": "0x174",
-        "m_flFOVTime": "0x178",
-        "m_flFOVRate": "0x17C",
-        "m_hZoomOwner": "0x180",
-        "m_flLastShotFOV": "0x224",
-        "m_hTriggerFogList": "0x188",
-        "m_hLastFogTrigger": "0x1A0"
+        "m_iFOV": "0x210",
+        "m_iFOVStart": "0x214",
+        "m_flFOVTime": "0x218",
+        "m_flFOVRate": "0x21C",
+        "m_hZoomOwner": "0x220",
+        "m_flLastShotFOV": "0x224"
     },
     "CPointOffScreenIndicatorUi": {
         "m_bBeenEnabled": "0xF90",
@@ -1087,8 +1072,7 @@
         "m_flTonemapMinAvgLum": "0xD7C"
     },
     "CCSPlayer_PingServices": {
-        "m_hPlayerPing": "0x54",
-        "m_flPlayerPingTokens": "0x40"
+        "m_hPlayerPing": "0x40"
     },
     "C_AttributeContainer": {
         "m_Item": "0x50",
@@ -1104,31 +1088,20 @@
     "CBasePlayerController": {
         "m_nFinalPredictedTick": "0x570",
         "m_CommandContext": "0x578",
-        "m_nInButtonsWhichAreToggles": "0x4E8",
-        "m_nTickBase": "0x4F0",
-        "m_hPawn": "0x520",
-        "m_bKnownTeamMismatch": "0x524",
+        "m_nInButtonsWhichAreToggles": "0x620",
+        "m_nTickBase": "0x628",
+        "m_hPawn": "0x62C",
+        "m_bKnownTeamMismatch": "0x630",
         "m_hPredictedPawn": "0x634",
-        "m_nSplitScreenSlot": "0x528",
-        "m_hSplitOwner": "0x52C",
-        "m_hSplitScreenPlayers": "0x530",
-        "m_bIsHLTV": "0x548",
-        "m_iConnected": "0x54C",
-        "m_iszPlayerName": "0x550",
-        "m_steamID": "0x740",
+        "m_nSplitScreenSlot": "0x638",
+        "m_hSplitOwner": "0x63C",
+        "m_hSplitScreenPlayers": "0x640",
+        "m_bIsHLTV": "0x658",
+        "m_iConnected": "0x65C",
+        "m_iszPlayerName": "0x660",
+        "m_steamID": "0x6E8",
         "m_bIsLocalPlayerController": "0x6F0",
-        "m_iDesiredFOV": "0x748",
-        "m_szNetworkIDString": "0x5D0",
-        "m_fLerpTime": "0x5D8",
-        "m_bLagCompensation": "0x5DC",
-        "m_bPredict": "0x5DD",
-        "m_bIsLowViolence": "0x5E4",
-        "m_bGamePaused": "0x5E5",
-        "m_iIgnoreGlobalChat": "0x720",
-        "m_flLastPlayerTalkTime": "0x724",
-        "m_flLastEntitySteadyState": "0x728",
-        "m_nAvailableEntitySteadyState": "0x72C",
-        "m_bHasAnySteadyStateEnts": "0x730"
+        "m_iDesiredFOV": "0x6F4"
     },
     "C_DecoyProjectile": {
         "m_nDecoyShotTick": "0x1208",
@@ -1142,19 +1115,19 @@
     },
     "CBaseAnimGraphController": {
         "m_animGraphNetworkedVars": "0x18",
-        "m_bSequenceFinished": "0x220",
-        "m_flSoundSyncTime": "0x224",
-        "m_nActiveIKChainMask": "0x228",
-        "m_hSequence": "0x22C",
-        "m_flSeqStartTime": "0x230",
-        "m_flSeqFixedCycle": "0x234",
-        "m_nAnimLoopMode": "0x238",
-        "m_flPlaybackRate": "0x23C",
-        "m_nNotifyState": "0x248",
-        "m_bNetworkedAnimationInputsChanged": "0x24A",
-        "m_bNetworkedSequenceChanged": "0x24B",
-        "m_bLastUpdateSkipped": "0x24C",
-        "m_flPrevAnimUpdateTime": "0x250"
+        "m_bSequenceFinished": "0x14A8",
+        "m_flSoundSyncTime": "0x14AC",
+        "m_nActiveIKChainMask": "0x14B0",
+        "m_hSequence": "0x14B4",
+        "m_flSeqStartTime": "0x14B8",
+        "m_flSeqFixedCycle": "0x14BC",
+        "m_nAnimLoopMode": "0x14C0",
+        "m_flPlaybackRate": "0x14C4",
+        "m_nNotifyState": "0x14D0",
+        "m_bNetworkedAnimationInputsChanged": "0x14D2",
+        "m_bNetworkedSequenceChanged": "0x14D3",
+        "m_bLastUpdateSkipped": "0x14D4",
+        "m_flPrevAnimUpdateTime": "0x14D8"
     },
     "C_C4": {
         "m_szScreenText": "0x1B20",
@@ -1170,21 +1143,19 @@
         "m_bBombPlanted": "0x1B7B"
     },
     "CBaseAnimGraph": {
-        "m_bInitiallyPopulateInterpHistory": "0x808",
+        "m_bInitiallyPopulateInterpHistory": "0xDA0",
         "m_bSuppressAnimEventSounds": "0xDA2",
-        "m_bAnimGraphUpdateEnabled": "0x818",
-        "m_flMaxSlopeDistance": "0x81C",
-        "m_vLastSlopeCheckPos": "0x820",
-        "m_bAnimationUpdateScheduled": "0x82C",
-        "m_vecForce": "0x830",
-        "m_nForceBone": "0x83C",
+        "m_bAnimGraphUpdateEnabled": "0xDB0",
+        "m_flMaxSlopeDistance": "0xDB4",
+        "m_vLastSlopeCheckPos": "0xDB8",
+        "m_bAnimationUpdateScheduled": "0xDC4",
+        "m_vecForce": "0xDC8",
+        "m_nForceBone": "0xDD4",
         "m_pClientsideRagdoll": "0xDD8",
         "m_bBuiltRagdoll": "0xDE0",
-        "m_RagdollPose": "0x850",
-        "m_bRagdollClientSide": "0x878",
-        "m_bHasAnimatedMaterialAttributes": "0xE50",
-        "m_pChoreoServices": "0x810",
-        "m_nLastDestructiblePartDestroyedAnimgraphSetTick": "0x9A0"
+        "m_RagdollPose": "0xDF8",
+        "m_bRagdollClientSide": "0xE40",
+        "m_bHasAnimatedMaterialAttributes": "0xE50"
     },
     "C_PathParticleRope": {
         "m_bStartActive": "0x570",
@@ -1430,23 +1401,7 @@
         "m_iEnemy4Ks": "0x6C",
         "m_iEnemy3Ks": "0x70",
         "m_iEnemyKnifeKills": "0x74",
-        "m_iEnemyTaserKills": "0x78",
-        "m_iEnemy2Ks": "0x7C",
-        "m_iUtility_Count": "0x80",
-        "m_iUtility_Successes": "0x84",
-        "m_iUtility_Enemies": "0x88",
-        "m_iFlash_Count": "0x8C",
-        "m_iFlash_Successes": "0x90",
-        "m_nHealthPointsRemovedTotal": "0x94",
-        "m_nHealthPointsDealtTotal": "0x98",
-        "m_nShotsFiredTotal": "0x9C",
-        "m_nShotsOnTargetTotal": "0xA0",
-        "m_i1v1Count": "0xA4",
-        "m_i1v1Wins": "0xA8",
-        "m_i1v2Count": "0xAC",
-        "m_i1v2Wins": "0xB0",
-        "m_iEntryCount": "0xB4",
-        "m_iEntryWins": "0xB8"
+        "m_iEnemyTaserKills": "0x78"
     },
     "C_EnvVolumetricFogVolume": {
         "m_bActive": "0x568",
@@ -1517,13 +1472,13 @@
         "m_totalHitsOnServer": "0x40"
     },
     "CLogicRelay": {
-        "m_OnTrigger": "0x4E0",
-        "m_OnSpawn": "0x508",
-        "m_bDisabled": "0x530",
-        "m_bWaitForRefire": "0x531",
-        "m_bTriggerOnce": "0x532",
-        "m_bFastRetrigger": "0x533",
-        "m_bPassthoughCaller": "0x534"
+        "m_OnTrigger": "0x568",
+        "m_OnSpawn": "0x590",
+        "m_bDisabled": "0x5B8",
+        "m_bWaitForRefire": "0x5B9",
+        "m_bTriggerOnce": "0x5BA",
+        "m_bFastRetrigger": "0x5BB",
+        "m_bPassthoughCaller": "0x5BC"
     },
     "C_PointCameraVFOV": {
         "m_flVerticalFOV": "0x5C8"
@@ -1619,7 +1574,7 @@
         "m_flTonemapEVSmoothingRange": "0x584"
     },
     "CFuncWater": {
-        "m_BuoyancyHelper": "0x790"
+        "m_BuoyancyHelper": "0xD28"
     },
     "C_EconEntity": {
         "m_flFlexDelayTime": "0x1130",
@@ -1753,15 +1708,7 @@
         "m_nType": "0xD44"
     },
     "CBombTarget": {
-        "m_bBombPlantedHere": "0x9DA",
-        "m_OnBombExplode": "0x960",
-        "m_OnBombPlanted": "0x988",
-        "m_OnBombDefused": "0x9B0",
-        "m_bIsBombSiteB": "0x9D8",
-        "m_bIsHeistBombTarget": "0x9D9",
-        "m_szMountTarget": "0x9E0",
-        "m_hInstructorHint": "0x9E8",
-        "m_nBombSiteDesignation": "0x9EC"
+        "m_bBombPlantedHere": "0xD30"
     },
     "C_PointClientUIDialog": {
         "m_hActivator": "0xD58",
@@ -1771,7 +1718,7 @@
         "m_WeaponSequence": "0x30"
     },
     "CPointChildModifier": {
-        "m_bOrphanInsteadOfDeletingChildrenOnRemove": "0x4E0"
+        "m_bOrphanInsteadOfDeletingChildrenOnRemove": "0x568"
     },
     "CDamageRecord": {
         "m_PlayerDamager": "0x28",
@@ -1802,7 +1749,7 @@
         "m_bInterpolationReadyToDraw": "0xB0"
     },
     "CEnvSoundscapeProxy": {
-        "m_MainSoundscapeName": "0x580"
+        "m_MainSoundscapeName": "0x608"
     },
     "C_SoundEventOBBEntity": {
         "m_vMins": "0x628",
@@ -1874,8 +1821,7 @@
         "m_bMixedShadows": "0x191",
         "m_flLightStyleStartTime": "0x194",
         "m_flCapsuleLength": "0x198",
-        "m_flMinRoughness": "0x19C",
-        "m_bPvsModifyEntity": "0x1B0"
+        "m_flMinRoughness": "0x19C"
     },
     "C_EconItemView": {
         "m_bInventoryImageRgbaRequested": "0x60",
@@ -1915,9 +1861,6 @@
     "C_EnvWindClientside": {
         "m_EnvWindShared": "0x568"
     },
-    "C_WeaponShield": {
-        "m_flDisplayHealth": "0x1B40"
-    },
     "C_PointClientUIWorldTextPanel": {
         "m_messageText": "0xF90"
     },
@@ -1939,17 +1882,17 @@
         "m_vecOldViewAngles": "0x1C4"
     },
     "CEnvSoundscape": {
-        "m_OnPlay": "0x4E0",
-        "m_flRadius": "0x508",
-        "m_soundEventName": "0x510",
-        "m_bOverrideWithEvent": "0x518",
-        "m_soundscapeIndex": "0x51C",
-        "m_soundscapeEntityListId": "0x520",
-        "m_positionNames": "0x528",
-        "m_hProxySoundscape": "0x568",
-        "m_bDisabled": "0x56C",
-        "m_soundscapeName": "0x570",
-        "m_soundEventHash": "0x578"
+        "m_OnPlay": "0x568",
+        "m_flRadius": "0x590",
+        "m_soundEventName": "0x598",
+        "m_bOverrideWithEvent": "0x5A0",
+        "m_soundscapeIndex": "0x5A4",
+        "m_soundscapeEntityListId": "0x5A8",
+        "m_positionNames": "0x5B0",
+        "m_hProxySoundscape": "0x5F0",
+        "m_bDisabled": "0x5F4",
+        "m_soundscapeName": "0x5F8",
+        "m_soundEventHash": "0x600"
     },
     "CBasePlayerVData": {
         "m_sModelName": "0x28",
@@ -1968,12 +1911,10 @@
         "m_flCrouchTime": "0x174"
     },
     "CCSPlayerController_InGameMoneyServices": {
-        "m_iAccount": "0x48",
-        "m_iStartAccount": "0x4C",
-        "m_iTotalCashSpent": "0x50",
-        "m_iCashSpentThisRound": "0x54",
-        "m_bReceivesMoneyNextRound": "0x40",
-        "m_iMoneyEarnedForNextRound": "0x44"
+        "m_iAccount": "0x40",
+        "m_iStartAccount": "0x44",
+        "m_iTotalCashSpent": "0x48",
+        "m_iCashSpentThisRound": "0x4C"
     },
     "C_EnvWindShared__WindVariationEvent_t": {
         "m_flWindAngleVariation": "0x0",
@@ -2025,10 +1966,10 @@
     },
     "CCSPlayerController_ActionTrackingServices": {
         "m_perRoundStats": "0x40",
-        "m_matchStats": "0xB0",
-        "m_iNumRoundKills": "0x170",
-        "m_iNumRoundKillsHeadshots": "0x174",
-        "m_unTotalRoundDamageDealt": "0x178"
+        "m_matchStats": "0x90",
+        "m_iNumRoundKills": "0x110",
+        "m_iNumRoundKillsHeadshots": "0x114",
+        "m_unTotalRoundDamageDealt": "0x118"
     },
     "CHitboxComponent": {
         "m_bvDisabledHitGroups": "0x24"
@@ -2117,8 +2058,7 @@
         "m_hMyWeapons": "0x40",
         "m_hActiveWeapon": "0x58",
         "m_hLastWeapon": "0x5C",
-        "m_iAmmo": "0x60",
-        "m_bPreventWeaponPickup": "0xA0"
+        "m_iAmmo": "0x60"
     },
     "CAttributeManager__cached_attribute_float_t": {
         "flIn": "0x0",
@@ -2258,10 +2198,10 @@
         "m_flLineLength": "0xD30"
     },
     "CCSPlayer_ActionTrackingServices": {
-        "m_hLastWeaponBeforeC4AutoSwitch": "0x218",
-        "m_bIsRescuing": "0x244",
-        "m_weaponPurchasesThisMatch": "0x248",
-        "m_weaponPurchasesThisRound": "0x2A0"
+        "m_hLastWeaponBeforeC4AutoSwitch": "0x40",
+        "m_bIsRescuing": "0x44",
+        "m_weaponPurchasesThisMatch": "0x48",
+        "m_weaponPurchasesThisRound": "0xA0"
     },
     "shard_model_desc_t": {
         "m_nModelID": "0x8",
@@ -2282,24 +2222,24 @@
         "starttime": "0x0"
     },
     "CBaseProp": {
-        "m_bModelOverrodeBlockLOS": "0x9A8",
-        "m_iShapeType": "0x9AC",
-        "m_bConformToCollisionBounds": "0x9B0",
-        "m_mPreferredCatchTransform": "0x9B4"
+        "m_bModelOverrodeBlockLOS": "0xF88",
+        "m_iShapeType": "0xF8C",
+        "m_bConformToCollisionBounds": "0xF90",
+        "m_mPreferredCatchTransform": "0xF94"
     },
     "CPointTemplate": {
-        "m_iszWorldName": "0x4E0",
-        "m_iszSource2EntityLumpName": "0x4E8",
-        "m_iszEntityFilterName": "0x4F0",
-        "m_flTimeoutInterval": "0x4F8",
-        "m_bAsynchronouslySpawnEntities": "0x4FC",
-        "m_pOutputOnSpawned": "0x500",
-        "m_clientOnlyEntityBehavior": "0x528",
-        "m_ownerSpawnGroupType": "0x52C",
-        "m_createdSpawnGroupHandles": "0x530",
-        "m_SpawnedEntityHandles": "0x548",
-        "m_ScriptSpawnCallback": "0x560",
-        "m_ScriptCallbackScope": "0x568"
+        "m_iszWorldName": "0x568",
+        "m_iszSource2EntityLumpName": "0x570",
+        "m_iszEntityFilterName": "0x578",
+        "m_flTimeoutInterval": "0x580",
+        "m_bAsynchronouslySpawnEntities": "0x584",
+        "m_pOutputOnSpawned": "0x588",
+        "m_clientOnlyEntityBehavior": "0x5B0",
+        "m_ownerSpawnGroupType": "0x5B4",
+        "m_createdSpawnGroupHandles": "0x5B8",
+        "m_SpawnedEntityHandles": "0x5D0",
+        "m_ScriptSpawnCallback": "0x5E8",
+        "m_ScriptCallbackScope": "0x5F0"
     },
     "C_CSGO_PreviewModel": {
         "m_animgraph": "0x1120",
@@ -2310,11 +2250,11 @@
         "m_sInitialWeaponState": "0x1140"
     },
     "CInfoDynamicShadowHint": {
-        "m_bDisabled": "0x4E0",
-        "m_flRange": "0x4E4",
-        "m_nImportance": "0x4E8",
-        "m_nLightChoice": "0x4EC",
-        "m_hLight": "0x4F0"
+        "m_bDisabled": "0x568",
+        "m_flRange": "0x56C",
+        "m_nImportance": "0x570",
+        "m_nLightChoice": "0x574",
+        "m_hLight": "0x578"
     },
     "CGlowProperty": {
         "m_fGlowColor": "0x8",
@@ -2415,19 +2355,15 @@
         "m_bUseAutoCompare": "0x584"
     },
     "CCSPlayer_BuyServices": {
-        "m_vecSellbackPurchaseEntries": "0xC8"
+        "m_vecSellbackPurchaseEntries": "0x40"
     },
     "C_WeaponTaser": {
         "m_fFireTime": "0x1B40",
         "m_nLastAttackTick": "0x1B44"
     },
-    "C_Fists": {
-        "m_bPlayingUninterruptableAct": "0x1B20",
-        "m_nUninterruptableActivity": "0x1B24"
-    },
     "CInfoDynamicShadowHintBox": {
-        "m_vBoxMins": "0x4F8",
-        "m_vBoxMaxs": "0x504"
+        "m_vBoxMins": "0x580",
+        "m_vBoxMaxs": "0x58C"
     },
     "C_EnvCubemapFog": {
         "m_flEndDistance": "0x568",
@@ -2618,14 +2554,14 @@
         "m_nKeychainSeed": "0xF94"
     },
     "CCitadelSoundOpvarSetOBB": {
-        "m_iszStackName": "0x4E0",
-        "m_iszOperatorName": "0x4E8",
-        "m_iszOpvarName": "0x4F0",
-        "m_vDistanceInnerMins": "0x4F8",
-        "m_vDistanceInnerMaxs": "0x504",
-        "m_vDistanceOuterMins": "0x510",
-        "m_vDistanceOuterMaxs": "0x51C",
-        "m_nAABBDirection": "0x528"
+        "m_iszStackName": "0x580",
+        "m_iszOperatorName": "0x588",
+        "m_iszOpvarName": "0x590",
+        "m_vDistanceInnerMins": "0x598",
+        "m_vDistanceInnerMaxs": "0x5A4",
+        "m_vDistanceOuterMins": "0x5B0",
+        "m_vDistanceOuterMaxs": "0x5BC",
+        "m_nAABBDirection": "0x5C8"
     },
     "SellbackPurchaseEntry_t": {
         "m_unDefIdx": "0x30",
@@ -2669,17 +2605,15 @@
         "m_bIsIncGrenade": "0x1208"
     },
     "CInfoOffscreenPanoramaTexture": {
-        "m_bDisabled": "0x4E0",
-        "m_nResolutionX": "0x4E4",
-        "m_nResolutionY": "0x4E8",
-        "m_szLayoutFileName": "0x4F0",
-        "m_RenderAttrName": "0x4F8",
-        "m_TargetEntities": "0x500",
-        "m_nTargetChangeCount": "0x518",
-        "m_vecCSSClasses": "0x520",
-        "m_bCheckCSSClasses": "0x720",
-        "m_szTargetsName": "0x538",
-        "m_AdditionalTargetEntities": "0x540"
+        "m_bDisabled": "0x568",
+        "m_nResolutionX": "0x56C",
+        "m_nResolutionY": "0x570",
+        "m_szLayoutFileName": "0x578",
+        "m_RenderAttrName": "0x580",
+        "m_TargetEntities": "0x588",
+        "m_nTargetChangeCount": "0x5A0",
+        "m_vecCSSClasses": "0x5A8",
+        "m_bCheckCSSClasses": "0x720"
     },
     "C_DynamicLight": {
         "m_Flags": "0xD28",
@@ -2771,21 +2705,11 @@
         "m_bState": "0xD38"
     },
     "CCSPlayer_WeaponServices": {
-        "m_flNextAttack": "0xA8",
-        "m_bIsLookingAtWeapon": "0xAC",
-        "m_bIsHoldingLookAtWeapon": "0xAD",
-        "m_nOldShootPositionHistoryCount": "0xCC",
-        "m_nOldInputHistoryCount": "0x468",
-        "m_hSavedWeapon": "0xB0",
-        "m_nTimeToMelee": "0xB4",
-        "m_nTimeToSecondary": "0xB8",
-        "m_nTimeToPrimary": "0xBC",
-        "m_nTimeToSniperRifle": "0xC0",
-        "m_bIsBeingGivenItem": "0xC4",
-        "m_bIsPickingUpItemWithUse": "0xC5",
-        "m_bPickedUpWeapon": "0xC6",
-        "m_bDisableAutoDeploy": "0xC7",
-        "m_bIsPickingUpGroundWeapon": "0xC8"
+        "m_flNextAttack": "0xB8",
+        "m_bIsLookingAtWeapon": "0xBC",
+        "m_bIsHoldingLookAtWeapon": "0xBD",
+        "m_nOldShootPositionHistoryCount": "0xC0",
+        "m_nOldInputHistoryCount": "0x458"
     },
     "C_EnvDetailController": {
         "m_flFadeStartDist": "0x568",
@@ -3086,100 +3010,72 @@
         "m_nReorientMode": "0xFF4"
     },
     "CCSPlayerController": {
-        "m_pInGameMoneyServices": "0x788",
-        "m_pInventoryServices": "0x790",
-        "m_pActionTrackingServices": "0x798",
-        "m_pDamageServices": "0x7A0",
-        "m_iPing": "0x7A8",
-        "m_bHasCommunicationAbuseMute": "0x7AC",
-        "m_szCrosshairCodes": "0x7B0",
-        "m_iPendingTeamNum": "0x7B8",
-        "m_flForceTeamTime": "0x7BC",
-        "m_iCompTeammateColor": "0x7C0",
-        "m_bEverPlayedOnTeam": "0x7C4",
+        "m_pInGameMoneyServices": "0x720",
+        "m_pInventoryServices": "0x728",
+        "m_pActionTrackingServices": "0x730",
+        "m_pDamageServices": "0x738",
+        "m_iPing": "0x740",
+        "m_bHasCommunicationAbuseMute": "0x744",
+        "m_szCrosshairCodes": "0x748",
+        "m_iPendingTeamNum": "0x750",
+        "m_flForceTeamTime": "0x754",
+        "m_iCompTeammateColor": "0x758",
+        "m_bEverPlayedOnTeam": "0x75C",
         "m_flPreviousForceJoinTeamTime": "0x760",
-        "m_szClan": "0x7D8",
+        "m_szClan": "0x768",
         "m_sSanitizedPlayerName": "0x770",
-        "m_iCoachingTeam": "0x800",
-        "m_nPlayerDominated": "0x808",
-        "m_nPlayerDominatingMe": "0x810",
-        "m_iCompetitiveRanking": "0x818",
-        "m_iCompetitiveWins": "0x81C",
-        "m_iCompetitiveRankType": "0x820",
-        "m_iCompetitiveRankingPredicted_Win": "0x824",
-        "m_iCompetitiveRankingPredicted_Loss": "0x828",
-        "m_iCompetitiveRankingPredicted_Tie": "0x82C",
-        "m_nEndMatchNextMapVote": "0x830",
-        "m_unActiveQuestId": "0x834",
-        "m_nQuestProgressReason": "0x838",
-        "m_unPlayerTvControlFlags": "0x83C",
-        "m_iDraftIndex": "0x868",
-        "m_msQueuedModeDisconnectionTimestamp": "0x86C",
-        "m_uiAbandonRecordedReason": "0x870",
-        "m_eNetworkDisconnectionReason": "0x874",
-        "m_bCannotBeKicked": "0x878",
-        "m_bEverFullyConnected": "0x879",
-        "m_bAbandonAllowsSurrender": "0x87A",
-        "m_bAbandonOffersInstantSurrender": "0x87B",
-        "m_bDisconnection1MinWarningPrinted": "0x87C",
-        "m_bScoreReported": "0x87D",
-        "m_nDisconnectionTick": "0x880",
-        "m_bControllingBot": "0x890",
-        "m_bHasControlledBotThisRound": "0x891",
-        "m_bHasBeenControlledByPlayerThisRound": "0x892",
-        "m_nBotsControlledThisRound": "0x894",
-        "m_bCanControlObservedBot": "0x898",
-        "m_hPlayerPawn": "0x89C",
-        "m_hObserverPawn": "0x8A0",
-        "m_bPawnIsAlive": "0x8AC",
-        "m_iPawnHealth": "0x8B0",
-        "m_iPawnArmor": "0x8B4",
-        "m_bPawnHasDefuser": "0x8B8",
-        "m_bPawnHasHelmet": "0x8B9",
-        "m_nPawnCharacterDefIndex": "0x8BA",
-        "m_iPawnLifetimeStart": "0x8BC",
-        "m_iPawnLifetimeEnd": "0x8C0",
-        "m_iPawnBotDifficulty": "0x8C4",
-        "m_hOriginalControllerOfCurrentPawn": "0x8C8",
-        "m_iScore": "0x8CC",
-        "m_recentKillQueue": "0x8D8",
-        "m_nFirstKill": "0x8E0",
-        "m_nKillCount": "0x8E1",
-        "m_bMvpNoMusic": "0x8E2",
-        "m_eMvpReason": "0x8E4",
-        "m_iMusicKitID": "0x8E8",
-        "m_iMusicKitMVPs": "0x8EC",
-        "m_iMVPs": "0x8F0",
+        "m_iCoachingTeam": "0x778",
+        "m_nPlayerDominated": "0x780",
+        "m_nPlayerDominatingMe": "0x788",
+        "m_iCompetitiveRanking": "0x790",
+        "m_iCompetitiveWins": "0x794",
+        "m_iCompetitiveRankType": "0x798",
+        "m_iCompetitiveRankingPredicted_Win": "0x79C",
+        "m_iCompetitiveRankingPredicted_Loss": "0x7A0",
+        "m_iCompetitiveRankingPredicted_Tie": "0x7A4",
+        "m_nEndMatchNextMapVote": "0x7A8",
+        "m_unActiveQuestId": "0x7AC",
+        "m_nQuestProgressReason": "0x7B0",
+        "m_unPlayerTvControlFlags": "0x7B4",
+        "m_iDraftIndex": "0x7E0",
+        "m_msQueuedModeDisconnectionTimestamp": "0x7E4",
+        "m_uiAbandonRecordedReason": "0x7E8",
+        "m_eNetworkDisconnectionReason": "0x7EC",
+        "m_bCannotBeKicked": "0x7F0",
+        "m_bEverFullyConnected": "0x7F1",
+        "m_bAbandonAllowsSurrender": "0x7F2",
+        "m_bAbandonOffersInstantSurrender": "0x7F3",
+        "m_bDisconnection1MinWarningPrinted": "0x7F4",
+        "m_bScoreReported": "0x7F5",
+        "m_nDisconnectionTick": "0x7F8",
+        "m_bControllingBot": "0x808",
+        "m_bHasControlledBotThisRound": "0x809",
+        "m_bHasBeenControlledByPlayerThisRound": "0x80A",
+        "m_nBotsControlledThisRound": "0x80C",
+        "m_bCanControlObservedBot": "0x810",
+        "m_hPlayerPawn": "0x814",
+        "m_hObserverPawn": "0x818",
+        "m_bPawnIsAlive": "0x81C",
+        "m_iPawnHealth": "0x820",
+        "m_iPawnArmor": "0x824",
+        "m_bPawnHasDefuser": "0x828",
+        "m_bPawnHasHelmet": "0x829",
+        "m_nPawnCharacterDefIndex": "0x82A",
+        "m_iPawnLifetimeStart": "0x82C",
+        "m_iPawnLifetimeEnd": "0x830",
+        "m_iPawnBotDifficulty": "0x834",
+        "m_hOriginalControllerOfCurrentPawn": "0x838",
+        "m_iScore": "0x83C",
+        "m_recentKillQueue": "0x840",
+        "m_nFirstKill": "0x848",
+        "m_nKillCount": "0x849",
+        "m_bMvpNoMusic": "0x84A",
+        "m_eMvpReason": "0x84C",
+        "m_iMusicKitID": "0x850",
+        "m_iMusicKitMVPs": "0x854",
+        "m_iMVPs": "0x858",
         "m_bIsPlayerNameDirty": "0x85C",
-        "m_bFireBulletsSeedSynchronized": "0xFA81",
-        "m_bAttemptedToGetColor": "0x7C5",
-        "m_iTeammatePreferredColor": "0x7C8",
-        "m_bTeamChanged": "0x7CC",
-        "m_bInSwitchTeam": "0x7CD",
-        "m_bHasSeenJoinGame": "0x7CE",
-        "m_bJustBecameSpectator": "0x7CF",
-        "m_bSwitchTeamsOnNextRoundReset": "0x7D0",
-        "m_bRemoveAllItemsOnNextRoundReset": "0x7D1",
-        "m_flLastJoinTeamTime": "0x7D4",
-        "m_szClanName": "0x7E0",
-        "m_DesiredObserverMode": "0x8A4",
-        "m_hDesiredObserverTarget": "0x8A8",
-        "m_iRoundScore": "0x8D0",
-        "m_iRoundsWon": "0x8D4",
-        "m_nUpdateCounter": "0x8F4",
-        "m_flSmoothedPing": "0x8F8",
-        "m_lastHeldVoteTimer": "0xF9A0",
-        "m_bShowHints": "0xF9B8",
-        "m_iNextTimeCheck": "0xF9BC",
-        "m_bJustDidTeamKill": "0xF9C0",
-        "m_bPunishForTeamKill": "0xF9C1",
-        "m_bGaveTeamDamageWarning": "0xF9C2",
-        "m_bGaveTeamDamageWarningThisRound": "0xF9C3",
-        "m_dblLastReceivedPacketPlatFloatTime": "0xF9C8",
-        "m_LastTeamDamageWarningTime": "0xF9D0",
-        "m_LastTimePlayerWasDisconnectedForPawnsRemove": "0xF9D4",
-        "m_nSuspiciousHitCount": "0xF9D8",
-        "m_nNonSuspiciousHitStreak": "0xF9DC"
+        "m_bFireBulletsSeedSynchronized": "0x85D"
     },
     "C_BasePropDoor": {
         "m_eDoorState": "0x1238",
@@ -3213,13 +3109,13 @@
         "m_iChangedVariables": "0x5D4"
     },
     "CInfoWorldLayer": {
-        "m_pOutputOnEntitiesSpawned": "0x4E0",
-        "m_worldName": "0x508",
-        "m_layerName": "0x510",
-        "m_bWorldLayerVisible": "0x518",
-        "m_bEntitiesSpawned": "0x519",
-        "m_bCreateAsChildSpawnGroup": "0x51A",
-        "m_hLayerSpawnGroup": "0x51C",
+        "m_pOutputOnEntitiesSpawned": "0x568",
+        "m_worldName": "0x590",
+        "m_layerName": "0x598",
+        "m_bWorldLayerVisible": "0x5A0",
+        "m_bEntitiesSpawned": "0x5A1",
+        "m_bCreateAsChildSpawnGroup": "0x5A2",
+        "m_hLayerSpawnGroup": "0x5A4",
         "m_bWorldLayerActuallyVisible": "0x5A8"
     },
     "C_PhysMagnet": {
@@ -3373,15 +3269,15 @@
         "m_nSpriteHeight": "0xE34"
     },
     "CMapInfo": {
-        "m_iBuyingStatus": "0x4E0",
-        "m_flBombRadius": "0x4E4",
-        "m_iPetPopulation": "0x4E8",
-        "m_bUseNormalSpawnsForDM": "0x4EC",
-        "m_bDisableAutoGeneratedDMSpawns": "0x4ED",
-        "m_flBotMaxVisionDistance": "0x4F0",
-        "m_iHostageCount": "0x4F4",
-        "m_bFadePlayerVisibilityFarZ": "0x4F8",
-        "m_bRainTraceToSkyEnabled": "0x4F9"
+        "m_iBuyingStatus": "0x568",
+        "m_flBombRadius": "0x56C",
+        "m_iPetPopulation": "0x570",
+        "m_bUseNormalSpawnsForDM": "0x574",
+        "m_bDisableAutoGeneratedDMSpawns": "0x575",
+        "m_flBotMaxVisionDistance": "0x578",
+        "m_iHostageCount": "0x57C",
+        "m_bFadePlayerVisibilityFarZ": "0x580",
+        "m_bRainTraceToSkyEnabled": "0x581"
     },
     "C_PlantedC4": {
         "m_bBombTicking": "0xF90",
@@ -3452,208 +3348,26 @@
         "m_Transforms": "0x8",
         "m_hOwner": "0x20"
     },
-    "EventSimpleLoopFrameUpdate_t": {
-        "m_LoopState": "0x0",
-        "m_flRealTime": "0x28",
-        "m_flFrameTime": "0x2C"
-    },
-    "EventPostAdvanceTick_t": {
-        "m_nCurrentTick": "0x30",
-        "m_nCurrentTickThisFrame": "0x34",
-        "m_nTotalTicksThisFrame": "0x38",
-        "m_nTotalTicks": "0x3C"
-    },
-    "CEntityIOOutput": {
-        "m_Value": "0x18"
-    },
-    "EventClientSceneSystemThreadStateChange_t": {
-        "m_bThreadsActive": "0x0"
-    },
-    "EventClientOutput_t": {
-        "m_LoopState": "0x0",
-        "m_flRenderTime": "0x28",
-        "m_flRealTime": "0x2C",
-        "m_flRenderFrameTimeUnbounded": "0x30",
-        "m_bRenderOnly": "0x34"
-    },
-    "CEntityComponentHelper": {
-        "m_flags": "0x8",
-        "m_pInfo": "0x10",
-        "m_nPriority": "0x18",
-        "m_pNext": "0x20"
-    },
-    "GameTime_t": {
-        "m_Value": "0x0"
-    },
-    "CNetworkVarChainer": {
-        "m_PathIndex": "0x20"
-    },
-    "EventClientPostOutput_t": {
-        "m_LoopState": "0x0",
-        "m_flRenderTime": "0x28",
-        "m_flRenderFrameTime": "0x30",
-        "m_flRenderFrameTimeUnbounded": "0x34",
-        "m_bRenderOnly": "0x38"
-    },
-    "GameTick_t": {
-        "m_Value": "0x0"
-    },
-    "EventClientPollInput_t": {
-        "m_LoopState": "0x0",
-        "m_flRealTime": "0x28"
-    },
-    "EventPreDataUpdate_t": {
-        "m_nCount": "0x0"
-    },
-    "EventClientProcessGameInput_t": {
-        "m_LoopState": "0x0",
-        "m_flRealTime": "0x28",
-        "m_flFrameTime": "0x2C"
-    },
-    "EventFrameBoundary_t": {
-        "m_flFrameTime": "0x0"
-    },
-    "EventAppShutdown_t": {
-        "m_nDummy0": "0x0"
-    },
-    "EventProfileStorageAvailable_t": {
-        "m_nSplitScreenSlot": "0x0"
-    },
-    "EventPostDataUpdate_t": {
-        "m_nCount": "0x0"
-    },
-    "EventClientProcessNetworking_t": {
-        "m_nTickCount": "0x0"
-    },
-    "EventAdvanceTick_t": {
-        "m_nCurrentTick": "0x30",
-        "m_nCurrentTickThisFrame": "0x34",
-        "m_nTotalTicksThisFrame": "0x38",
-        "m_nTotalTicks": "0x3C"
-    },
-    "EventClientPreOutput_t": {
-        "m_LoopState": "0x0",
-        "m_flRenderTime": "0x28",
-        "m_flRenderFrameTime": "0x30",
-        "m_flRenderFrameTimeUnbounded": "0x38",
-        "m_flRealTime": "0x40",
-        "m_bRenderOnly": "0x44"
-    },
-    "EventClientFrameSimulate_t": {
-        "m_LoopState": "0x0",
-        "m_flRealTime": "0x28",
-        "m_flFrameTime": "0x2C",
-        "m_bScheduleSendTickPacket": "0x30"
-    },
-    "EventSetTime_t": {
-        "m_LoopState": "0x0",
-        "m_nClientOutputFrames": "0x28",
-        "m_flRealTime": "0x30",
-        "m_flRenderTime": "0x38",
-        "m_flRenderFrameTime": "0x40",
-        "m_flRenderFrameTimeUnbounded": "0x48",
-        "m_flRenderFrameTimeUnscaled": "0x50",
-        "m_flTickRemainder": "0x58"
-    },
-    "EventSimulate_t": {
-        "m_LoopState": "0x0",
-        "m_bFirstTick": "0x28",
-        "m_bLastTick": "0x29"
-    },
-    "EntComponentInfo_t": {
-        "m_pName": "0x0",
-        "m_pCPPClassname": "0x8",
-        "m_pNetworkDataReferencedDescription": "0x10",
-        "m_pNetworkDataReferencedPtrPropDescription": "0x18",
-        "m_nRuntimeIndex": "0x20",
-        "m_nFlags": "0x24",
-        "m_pBaseClassComponentHelper": "0x60"
-    },
-    "EngineLoopState_t": {
-        "m_nPlatWindowWidth": "0x18",
-        "m_nPlatWindowHeight": "0x1C",
-        "m_nRenderWidth": "0x20",
-        "m_nRenderHeight": "0x24"
-    },
-    "EventClientPollNetworking_t": {
-        "m_nTickCount": "0x0"
-    },
-    "EventClientProcessInput_t": {
-        "m_LoopState": "0x0",
-        "m_flRealTime": "0x28",
-        "m_flTickInterval": "0x2C",
-        "m_flTickStartTime": "0x30"
-    },
-    "EmptyTestScript": {
-        "m_hTest": "0x10"
-    },
-    "CAnimScriptBase": {
-        "m_bIsValid": "0x8"
-    },
-    "animationsystem_dll": {
-        "AnimationSystemUtils_001": "0x60FE08",
-        "AnimationSystem_001": "0x607D30"
-    },
     "client_dll": {
-        "ClientToolsInfo_001": "0x1884D60",
-        "EmptyWorldService001_Client": "0x1840050",
-        "GameClientExports001": "0x1881A18",
-        "LegacyGameUI001": "0x18A25C0",
-        "Source2Client002": "0x1A9DC60",
-        "Source2ClientConfig001": "0x1A34420",
-        "Source2ClientPrediction001": "0x188CDF0",
-        "Source2ClientUI001": "0x18A0990",
-        "dwCSGOInput": "0x1AAE4B0",
-        "dwEntityList": "0x1A38800",
-        "dwGameEntitySystem": "0x1B5F568",
+        "dwCSGOInput": "0x1A92F10",
+        "dwEntityList": "0x1A1F640",
+        "dwGameEntitySystem": "0x1B43E68",
         "dwGameEntitySystem_highestEntityIndex": "0x20F0",
-        "dwGameRules": "0x1A9F630",
-        "dwGlobalVars": "0x1880CD0",
-        "dwGlowManager": "0x1A9F650",
-        "dwLocalPlayerController": "0x1A89E90",
-        "dwLocalPlayerPawn": "0x188CF70",
-        "dwPlantedC4": "0x1AA97F0",
-        "dwPrediction": "0x188CDF0",
-        "dwSensitivity": "0x1AA0C28",
+        "dwGameRules": "0x1A84090",
+        "dwGlobalVars": "0x1867DB0",
+        "dwGlowManager": "0x1A840B0",
+        "dwLocalPlayerController": "0x1A6E8D0",
+        "dwLocalPlayerPawn": "0x1874050",
+        "dwPlantedC4": "0x1A8E0E0",
+        "dwPrediction": "0x1873ED0",
+        "dwSensitivity": "0x1A857F8",
         "dwSensitivity_sensitivity": "0x40",
-        "dwViewAngles": "0x1AAE880",
-        "dwViewMatrix": "0x1AA45F0",
-        "dwViewRender": "0x1AA4E00",
-        "dwWeaponC4": "0x1A3CD60"
+        "dwViewAngles": "0x1A932E0",
+        "dwViewMatrix": "0x1A89050",
+        "dwViewRender": "0x1A89860",
+        "dwWeaponC4": "0x1A226A0"
     },
     "engine2_dll": {
-        "BenchmarkService001": "0x546D30",
-        "BugService001": "0x5DFCC0",
-        "ClientServerEngineLoopService_001": "0x547A50",
-        "EngineGameUI001": "0x544B90",
-        "EngineServiceMgr001": "0x620B50",
-        "GameEventSystemClientV001": "0x620E70",
-        "GameEventSystemServerV001": "0x620FB0",
-        "GameResourceServiceClientV001": "0x546E30",
-        "GameResourceServiceServerV001": "0x546E90",
-        "GameUIService_001": "0x5DFFC0",
-        "HostStateMgr001": "0x547940",
-        "INETSUPPORT_001": "0x540060",
-        "InputService_001": "0x5E02D0",
-        "KeyValueCache001": "0x5479F0",
-        "MapListService_001": "0x61F2D0",
-        "NetworkClientService_001": "0x61F460",
-        "NetworkP2PService_001": "0x547140",
-        "NetworkServerService_001": "0x61F7F0",
-        "NetworkService_001": "0x547290",
-        "RenderService_001": "0x61FA50",
-        "ScreenshotService001": "0x61FCF0",
-        "SimpleEngineLoopService_001": "0x547B60",
-        "SoundService_001": "0x5472D0",
-        "Source2EngineToClient001": "0x544210",
-        "Source2EngineToClientStringTable001": "0x544270",
-        "Source2EngineToServer001": "0x544308",
-        "Source2EngineToServerStringTable001": "0x544330",
-        "SplitScreenService_001": "0x5475B0",
-        "StatsService_001": "0x620120",
-        "ToolService_001": "0x547770",
-        "VENGINE_GAMEUIFUNCS_VERSION005": "0x544C20",
-        "VProfService_001": "0x5477B0",
         "dwBuildNumber": "0x540BE4",
         "dwNetworkGameClient": "0x53FCE0",
         "dwNetworkGameClient_clientTickCount": "0x368",
@@ -3666,102 +3380,12 @@
         "dwWindowHeight": "0x6234FC",
         "dwWindowWidth": "0x6234F8"
     },
-    "filesystem_stdio_dll": {
-        "VAsyncFileSystem2_001": "0x20C590",
-        "VFileSystem017": "0x211840"
-    },
-    "host_dll": {
-        "DebugDrawQueueManager001": "0x136FE0",
-        "GameModelInfo001": "0x137020",
-        "GameSystem2HostHook": "0x137060",
-        "HostUtils001": "0x137090",
-        "PredictionDiffManager001": "0x1372E0",
-        "SaveRestoreDataVersion001": "0x137410",
-        "SinglePlayerSharedMemory001": "0x137440",
-        "Source2Host001": "0x1374B0"
-    },
-    "imemanager_dll": {
-        "IMEManager001": "0x2EA50"
-    },
     "inputsystem_dll": {
-        "InputStackSystemVersion001": "0x36B70",
-        "InputSystemVersion001": "0x387E0",
         "dwInputSystem": "0x387E0"
     },
-    "localize_dll": {
-        "Localize_001": "0x3AAD0"
-    },
     "matchmaking_dll": {
-        "GameTypes001": "0x1A3190",
-        "MATCHFRAMEWORK_001": "0x1AB360",
         "dwGameTypes": "0x1A3190",
         "dwGameTypes_mapName": "0x120"
-    },
-    "materialsystem2_dll": {
-        "FontManager_001": "0x114330",
-        "MaterialUtils_001": "0x10F4C0",
-        "PostProcessingSystem_001": "0x10F3D0",
-        "TextLayout_001": "0x10F450",
-        "VMaterialSystem2_001": "0x113910"
-    },
-    "meshsystem_dll": {
-        "MeshSystem001": "0x19D600"
-    },
-    "navsystem_dll": {
-        "NavSystem001": "0xFB730"
-    },
-    "networksystem_dll": {
-        "FlattenedSerializersVersion001": "0x244570",
-        "NetworkMessagesVersion001": "0x2765E0",
-        "NetworkSystemVersion001": "0x26E300",
-        "SerializedEntitiesVersion001": "0x26E3F0"
-    },
-    "panorama_dll": {
-        "PanoramaUIEngine001": "0x4E9250"
-    },
-    "panorama_text_pango_dll": {
-        "PanoramaTextServices001": "0x2B38E0"
-    },
-    "panoramauiclient_dll": {
-        "PanoramaUIClient001": "0x28E840"
-    },
-    "particles_dll": {
-        "ParticleSystemMgr003": "0x629C70"
-    },
-    "pulse_system_dll": {
-        "IPulseSystem_001": "0x17D990"
-    },
-    "rendersystemdx11_dll": {
-        "RenderDeviceMgr001": "0x3EE1F0",
-        "RenderUtils_001": "0x3EEA58",
-        "VRenderDeviceMgrBackdoor001": "0x3EE290"
-    },
-    "resourcesystem_dll": {
-        "ResourceSystem013": "0x72A40"
-    },
-    "scenefilecache_dll": {
-        "ResponseRulesCache001": "0x720F0",
-        "SceneFileCache002": "0x72260"
-    },
-    "scenesystem_dll": {
-        "RenderingPipelines_001": "0x5CEB10",
-        "SceneSystem_002": "0x7ADFF0",
-        "SceneUtils_001": "0x5CF360"
-    },
-    "schemasystem_dll": {
-        "SchemaSystem_001": "0x616E0"
-    },
-    "server_dll": {
-        "EmptyWorldService001_Server": "0x137DD20",
-        "EntitySubclassUtilsV001": "0x132E3E0",
-        "NavGameTest001": "0x141DD68",
-        "ServerToolsInfo_001": "0x13D36B8",
-        "Source2GameClients001": "0x13CD580",
-        "Source2GameDirector001": "0x1501420",
-        "Source2GameEntities001": "0x13D35E0",
-        "Source2Server001": "0x13D3450",
-        "Source2ServerConfig001": "0x15CBD88",
-        "customnavsystem001": "0x1312B58"
     },
     "soundsystem_dll": {
         "dwSoundSystem": "0x3A15F0",
